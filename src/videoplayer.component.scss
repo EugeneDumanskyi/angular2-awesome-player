@@ -1,0 +1,33 @@
+.videoplayer {
+	width:1000px;
+	height: 350px;
+	margin: auto;
+	&__player {
+		float:left;
+		width:650px;
+		background-color: #222222;
+	}
+	&__playlist {
+		float:left;
+		width:346px;
+		background-color: #222222;
+		&__list {
+			list-style-type: none;
+			cursor: pointer;
+			padding:0;
+			margin:0;
+			height: 350px;
+			background-color: #222222;
+			color:#dddddd;
+			&__item {
+				padding: 5px 10px;
+				&:hover {
+					background-color: #505050;
+				}
+				&-selected {
+					background-color: #3a3a3a;
+				}
+			}
+		}
+	}
+}
